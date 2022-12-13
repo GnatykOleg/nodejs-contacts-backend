@@ -19,7 +19,7 @@
    "Verification email sent" and code 200 OK.
 
 4. `POST request to /api/users/login` For user login. If a user has not been
-   verified, the response is "message": "User: gnaticoleg@gmail.com not
+   verified, the response is "message": "User: user@gmail.com not
    verified" with code 401 Unauthorized. If the user has been verified, a token
    is issued to him and the code 200 OK comes.
 
